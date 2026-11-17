@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".ejercicio7.Ejercicio7Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 7: Gestión de Libros (Local)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URL Emulator: http://10.0.2.2:3000/libros\nInstrucciones json-server:\n1. Crear db.json con {'libros': [{'id': '1', 'titulo': 'Android Basico'}]}\n2. Ejecutar: json-server --watch db.json --host 0.0.2.2 (o 0.0.0.0)"
+            android:textSize="13sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GET: Mostrar Libros"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POST: Agregar Libro"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnPut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PUT: Actualizar Libro (ID 1)"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DELETE: Eliminar Libro (ID 1)"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultados o estado del servidor..."
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar al Menú Principal"
+            android:backgroundTint="@android:color/darker_gray" />
+
+    </LinearLayout>
+</ScrollView>

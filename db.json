@@ -1,0 +1,16 @@
+{
+  "libros": [
+    {
+      "id": "1",
+      "titulo": "Android Basico",
+      "autor": "Instructor SENA",
+      "paginas": 250
+    },
+    {
+      "id": "2",
+      "titulo": "Kotlin para Principiantes",
+      "autor": "SENA",
+      "paginas": 180
+    }
+  ]
+}

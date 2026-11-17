@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    tools:context=".ejercicio3.Ejercicio3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 3: PUT y PATCH"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URL: https://jsonplaceholder.typicode.com/posts/1\n- PUT: Reemplaza todo el recurso.\n- PATCH: Modifica parcialmente (solo título)."
+            android:textSize="14sp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnPut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar (PUT)"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnPatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modificar (PATCH)"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado aparecerá aquí..."
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regresar al Menú Principal"
+            android:backgroundTint="@android:color/darker_gray" />
+
+    </LinearLayout>
+</ScrollView>

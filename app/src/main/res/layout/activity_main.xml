@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taller Android - Servicios Web"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccione un ejercicio del taller para abrir su respectiva pantalla de solución."
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 1: Petición GET"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 2: Envío POST"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 3: PUT y PATCH"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 4: Petición DELETE"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 5: GET e Imágenes"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 6: Mini Galería (RecyclerView)"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnEjercicio7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ejercicio 7: Libros Servidor Local"
+            android:layout_marginBottom="12dp" />
+
+    </LinearLayout>
+</ScrollView>
